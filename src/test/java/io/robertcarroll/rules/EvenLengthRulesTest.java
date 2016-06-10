@@ -28,14 +28,6 @@ public class EvenLengthRulesTest {
     }
 
     @Test
-    public void identifyCharacterCountsTest(){
-        int expected = 2;
-        evenLengthRules.identifyCharacterCounts("aabb");
-        int actual = evenLengthRules.getCharacterCount('a');
-        assertEquals(expected, actual);
-    }
-
-    @Test
     public void checkAmountOfOddsTest(){
         HashMap<Character, Integer> countList = new HashMap<>();
         countList.put('a', 4);

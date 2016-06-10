@@ -16,9 +16,5 @@ public abstract class Rules implements WordRules{
         }
     }
 
-    public int getCharacterCount(char character){
-        return characterListCount.get(character);
-    }
-
     public abstract String checkAmountOfOddCounts(HashMap<Character, Integer> hashMap);
 }
